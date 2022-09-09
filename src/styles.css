@@ -54,6 +54,10 @@ h1 {font-size: 2.4rem;margin-bottom: 30px;}
 .dash-left ul li a.active {background-color:#007EDB; color:#fff;}
 .dash-header {display:flex; justify-content: space-between;}
 .table img { width:80px; }
+
+.copyright {
+    text-align: center;
+}
  
 footer {background-color: #c9034f;color:#fff; padding:20px;}
  

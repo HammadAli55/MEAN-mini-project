@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { BannerComponent } from './banner/banner.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { ArticlesModule } from './articles/articles.module';
+import { StaticpagesModule } from './staticpages/staticpages.module';
 
 @NgModule({
   declarations: [
@@ -18,8 +19,9 @@ import { ArticlesModule } from './articles/articles.module';
     PagenotfoundComponent
   ],
   imports: [
-    ArticlesModule,
     BrowserModule,
+    ArticlesModule,
+    StaticpagesModule,
     AppRoutingModule
   ],
   providers: [],
