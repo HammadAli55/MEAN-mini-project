@@ -1,0 +1,17 @@
+/* Navigation Bar */
+.navbar-dark .navbar-nav .nav-link {color:#fff;}
+.navbar-dark .navbar-nav .active .nav-link {color:#fff;}
+
+.navbar{
+    padding: 20px 10px 20px 0px;
+    background-color: #c9034f;
+    transition: all ease 0.4s;
+}
+.navbar-brand{
+font-size: 22px;
+color: white !important;
+}
+.navbar .navbar-nav li a{
+font-size: 16px;
+color: rgb(255, 255, 255);
+}
